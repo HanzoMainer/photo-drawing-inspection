@@ -1,0 +1,22 @@
+[project]
+name = "photo-drawing-inspection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "HanzoMainer", email = "tym.yar1441@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pandas>=2.3.3",
+    "pillow>=11.3.0",
+]
+
+[project.scripts]
+photo-drawing-inspection = "photo_drawing_inspection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
